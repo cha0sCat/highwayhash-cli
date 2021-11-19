@@ -33,6 +33,7 @@ jobs:
       - name: build cli
         run: |
           go build -a -o "release/highwayhash-cli_${GOOS}_${GOARCH}"
+          ls release
         env:
           GOOS: ${{ matrix.goos }}
           GOARCH: ${{ matrix.goarch }}
