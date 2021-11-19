@@ -42,22 +42,22 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: highwayhash-cli_linux_amd64
-          path: release/highwayhash-cli*linux_amd64.*
+          path: release/highwayhash-cli_linux_amd64
 
       - name: Upload binary files (darwin_amd64)
         uses: actions/upload-artifact@v2
         with:
           name: highwayhash-cli_darwin_amd64
-          path: release/highwayhash-cli*darwin_amd64.*
+          path: release/highwayhash-cli_darwin_amd64
 
       - name: Upload binary files (linux_arm64)
         uses: actions/upload-artifact@v2
         with:
           name: highwayhash-cli_linux_arm64
-          path: release/highwayhash-cli*linux_arm64.*
+          path: release/highwayhash-cli_linux_arm64
 
       - name: Upload binary files (darwin_arm64)
         uses: actions/upload-artifact@v2
         with:
           name: highwayhash-cli_darwin_arm64
-          path: release/highwayhash-cli*darwin_arm64.*
+          path: release/highwayhash-cli_darwin_arm64
